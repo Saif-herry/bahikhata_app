@@ -15,9 +15,7 @@ const FooterSection = () => {
           Privacy Notice for California Users
         </span>
       </aside>
-      <p className="hidden items-start justify-start lg:block ">
-        <span>©</span> <span>Automattic</span>
-      </p>
+      <p className="hidden items-start justify-start lg:block "> Automattic</p>
     </div>
   );
 };
