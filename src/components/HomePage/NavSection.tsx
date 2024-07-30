@@ -10,7 +10,7 @@ const NavSection = () => {
   return (
     <div className="w-full">
       <aside className="px-4 w-full flex items-center justify-between">
-        <div className="flex justify-start items-start  md:justify-center md:items-center w-full md:w-auto">
+        <div className="flex justify-start items-start md:justify-center md:items-center w-full">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFxcYUyBLMRMtmWzKwc_WCj9ZsEnrpyS-_KwlFf-SHnImZELsMXa0_1NbNLhqFSETpSuE&usqp=CAU"
             alt="broken-img"
