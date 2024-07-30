@@ -3,12 +3,12 @@ import React from 'react';
 const AboutSection = () => {
   return (
     <div className="w-full pt-14">
-      <aside className="text-5xl font-bold text-gray-900 flex flex-col items-center justify-center gap-4">
+      <aside className="px-4 md:px-0 text-4xl md:text-5xl font-bold text-gray-900 flex flex-col items-center justify-center gap-0 md:gap-4">
         <h1>Comprehensive underneath, </h1>
         <h1>simple on the surface</h1>
       </aside>
 
-      <aside className="grid grid-cols-3 gap-8 px-52 pt-14">
+      <aside className="grid md:grid-cols-3 grid-cols-1  gap-8 lg:px-52 px-4 pt-14">
         {data?.map((item) => (
           <div key={item?.id} className="w-full flex flex-col gap-2">
             <aside className="flex items-start gap-2 text-lg text-black font-semibold">

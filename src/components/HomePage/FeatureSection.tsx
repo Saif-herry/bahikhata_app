@@ -2,13 +2,13 @@ import React from 'react';
 
 const FeatureSection = () => {
   return (
-    <div className="w-full flex flex-col gap-8 items-center justify-center pt-14 px-52">
+    <div className="w-full flex flex-col gap-8 items-center justify-center pt-14 px-4 lg:px-52">
       <aside>
         <h1 className="text-5xl text-gray-900 font-bold">
           What people are saying
         </h1>
       </aside>
-      <aside className="grid grid-cols-3 gap-2">
+      <aside className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 lg:gap-2">
         {featureData?.map((item) => (
           <div
             key={item?.id}

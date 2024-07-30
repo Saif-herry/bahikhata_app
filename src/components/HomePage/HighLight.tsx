@@ -2,7 +2,7 @@ import React from 'react';
 
 const HighLight = () => {
   return (
-    <div className="w-full flex flex-col gap-8 items-center justify-center pt-14 px-80">
+    <div className="w-full flex flex-col gap-8 items-center justify-center pt-14 px-4 lg:px-80">
       <h1 className="text-5xl text-gray-900 font-bold">
         Available on all your devices
       </h1>

@@ -3,7 +3,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <div className="gap-6 w-full flex flex-col items-center justify-center pt-20">
+    <div className="px-4 md:px-0 gap-6 w-full flex flex-col items-center justify-center pt-20">
       <aside className="flex flex-col items-center text-6xl text-gray-700 font-bold ">
         <h1>The simplest way to</h1>
         <h1>keep notes</h1>
